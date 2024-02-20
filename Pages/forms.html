@@ -17,5 +17,30 @@
     <h1>
         <a href="/" style="color:green">На головну сторінку</a>
     </h1>
+    <forms action="/">
+        <label for="fname">Ім'я</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="fage">Вік</label><br>
+        <input type="text" id="fage" name="fage"><br>
+        <label for="fpass">Пароль</label><br>
+        <input type="text" id="fpass" name="fpass"><br>
+        <label for="fmale">Чоловік</label>
+        <input type="radio" id="fmale" name="gender" value="Чоловік">
+        <label for="female">Жінка</label>
+        <input type="radio" id="female" name="gender" value="Жінка"><br>
+        <br><label for="cities">Оберіть місто:</label>
+        <select id="cities" name="cities">
+        <option value="Київ">Київ</option>
+        <option value="Львів">Львів</option>
+        <option value="Одеса">Одеса</option>
+        <option value="Інше">Інше</option>
+        </select><br>
+        <br><label for="frem">Запам'ятати мене</label>
+        <input type="checkbox" id="frem" name="frem"><br>
+        <br><label for="fmess">Введіть ваше повідомлення</label>
+        <input type="text" id="fmess" name="fmess"><br>
+        <hr><br><input type="submit" value="Опублікувати">
+    </forms>
+    
 </body>
 </html>
